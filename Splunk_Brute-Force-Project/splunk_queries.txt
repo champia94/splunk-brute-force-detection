@@ -1,0 +1,13 @@
+Brute Force Detection Query
+
+index=main "Failed login"
+| rex "from (?<ip>\d+\.\d+\.\d+\.\d+)"
+| stats count by ip
+| sort -count
+
+Advanced Detection
+
+index=main
+("Failed password" OR "Failed login")
+| stats count by user, src_ip
+| where count > 5

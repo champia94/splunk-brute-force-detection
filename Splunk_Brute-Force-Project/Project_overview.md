@@ -1,0 +1,1 @@
+Brute Force Attack Detection and Monitoring using Splunk is a SOC use case project where login logs are analyzed to identify multiple failed login attempts from suspicious IP addresses. Using Splunk SPL queries, the project detects brute force patterns, extracts attacker IP addresses, and helps monitor potential unauthorized access attempts.
