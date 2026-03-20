@@ -21,8 +21,7 @@ index=main "Failed login"
 ## Detection Logic
 If multiple failed login attempts occur within a short time, it indicates a possible brute force attack.
 
-## Screenshots
-(Add your Splunk dashboard screenshots here)
+
 
 ## Author
 Jagdish Champia
